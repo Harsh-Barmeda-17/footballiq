@@ -1,8 +1,11 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
 .venv/
 venv/
+*.egg-info/
+.pytest_cache/
 
 # Environment
 .env
@@ -14,4 +17,18 @@ logs/
 # Data files (too large / regenerable — not committed to git)
 data/
 
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scratch files
 scratch_test.py

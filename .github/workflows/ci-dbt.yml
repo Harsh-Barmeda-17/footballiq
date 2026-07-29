@@ -1,0 +1,8 @@
+# Stub — full pipeline implemented in Week 26
+name: CI (stub)
+on: [pull_request]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI not yet implemented"

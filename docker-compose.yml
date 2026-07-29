@@ -1,0 +1,5 @@
+# Stub — full multi-service setup (postgres, mlflow, airflow, api) built in Week 25
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
