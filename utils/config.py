@@ -46,7 +46,7 @@ class Config:
     def database_url(self) -> str:
         """SQLAlchemy connection string for psycopg2."""
         return (
-            f"postgresql+psycopg2://{self.db_user}:{self.db_password}"
+            f"postgresql+psycopg://{self.db_user}:{self.db_password}"
             f"@{self.db_host}:{self.db_port}/{self.db_name}"
         )
 
